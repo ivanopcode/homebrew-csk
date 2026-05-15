@@ -2,7 +2,7 @@
 
 ```bash
 brew tap ivanopcode/csk
-brew install cocoaskill
+brew install cocoaskills
 ```
 
 CocoaSkill source: <https://github.com/ivanopcode/cocoaskills>

@@ -1,10 +1,10 @@
-class Cocoaskill < Formula
+class Cocoaskills < Formula
   include Language::Python::Virtualenv
 
   desc "Local skill manager for AI agent skills"
   homepage "https://github.com/ivanopcode/cocoaskills"
-  url "https://github.com/ivanopcode/cocoaskills/releases/download/v0.1.2/cocoaskill-0.1.2.tar.gz"
-  sha256 "2e5c119cfc8a78e72476e9d5e20939f39b29f9662aaeac0a7eac2513a37ef960"
+  url "https://github.com/ivanopcode/cocoaskills/releases/download/v0.2.0/cocoaskills-0.2.0.tar.gz"
+  sha256 "2114ba557ab601895320415f6466ffe35044ab802e46a2116dc170bcff3f5cd3"
   license "Apache-2.0"
 
   depends_on "python@3.13"
