@@ -1,0 +1,26 @@
+name: Tap CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cocoaskills-rc:
+    runs-on: macos-15
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out tap
+        uses: actions/checkout@v7
+
+      - name: Tap pull request checkout
+        run: brew tap ivanopcode/csk "$GITHUB_WORKSPACE"
+
+      - name: Audit, install, and test RC formula
+        run: .github/ci/test-cocoaskills-rc.sh
