@@ -3,8 +3,8 @@ class Cocoaskills < Formula
 
   desc "Local skill manager for AI agent skills"
   homepage "https://github.com/ivanopcode/cocoaskills"
-  url "https://github.com/ivanopcode/cocoaskills/releases/download/v0.21.0/cocoaskills-0.21.0.tar.gz"
-  sha256 "f5c6f30c25ccd614f0c89c11435a99186e2c2b852c57f651a2253e06cb8e5971"
+  url "https://github.com/ivanopcode/cocoaskills/releases/download/v0.21.1/cocoaskills-0.21.1.tar.gz"
+  sha256 "2808e6128bddbddda5e5f59c21c67a8f85a4fdbee5766a6eabf9200fd6992e4b"
   license "Apache-2.0"
 
   depends_on "python@3.13"
